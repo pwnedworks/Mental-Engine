@@ -1,12 +1,15 @@
 # Mental Engine
+![logo](Mental_Engine_logo.png)
 ========================
 
-This is the source code for Mental Engine v.1.0, based on Serious Engine v.1.10
+**MENTAL Engine** is a fork of [**SERIOUS Engine 1**](https://github.com/Croteam-official/Serious-Engine)
+
+
 
 Building
 --------
 
-To build Mental Engine 1, you'll need Visual Studio (from 2013-2026), Professional or Community edition ( https://www.visualstudio.com/post-download-vs?sku=community ).
+To build Mental Engine 1, you'll need Visual Studio (from 2013), Professional or Community edition ( https://www.visualstudio.com/post-download-vs?sku=community ).
 
 Do not use spaces in the path to the solution.
 
@@ -34,10 +37,11 @@ SeriousSkaStudio has some issues with MFC windows that can prevent the main wind
 License
 -------
 
-Mental Engine is licensed under the GNU GPL v2 (see LICENSE file).
+Mental Engine is licensed under the [GNU GPL v2](https://github.com/pwnedworks/Mental-Engine/blob/master/LICENSE).
 
 Some of the code included with the engine sources is not licensed under the GNU GPL v2:
 
-* zlib (located in `Sources/Engine/zlib`) by Jean-loup Gailly and Mark Adler
-* LightWave SDK (located in `Sources/LWSkaExporter/SDK`) by NewTek Inc.
-* libogg/libvorbis (located in `Sources/libogg` and `Sources/libvorbis`) by Xiph.Org Foundation
+* [zlib](https://github.com/madler/zlib) (located in `Sources/Engine/zlib`) by [Jean-loup Gailly and Mark Adler](https://github.com/madler)
+* [LightWave SDK] (located in `Sources/LWSkaExporter/SDK`) by [NewTek Inc.]
+* [libogg/libvorbis](https://www.xiph.org/vorbis/) (located in `Sources/libogg` and `Sources/libvorbis`) by [Xiph.Org Foundation](https://www.xiph.org/)
+* [libmpg123](https://github.com/gypified/libmpg123) by [gypified](https://github.com/gypified)
